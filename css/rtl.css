@@ -1,0 +1,35 @@
+@charset "utf-8";
+body.rtl {
+  direction: rtl;
+}
+body.rtl .topbar .menu .links ul li:last-child {
+  margin-right: 30px;
+}
+body.rtl .topbar .menu .links ul li:first-child {
+  margin-right: 0;
+}
+body.rtl .section .background .leftpart {
+  left: auto;
+  right: 0;
+}
+body.rtl .section .background .rightpart {
+  padding-left: 0;
+  padding-right: 33%;
+}
+body.rtl .about .about_inner .right {
+  padding-left: 0;
+  padding-right: 100px;
+}
+body.rtl .about .name h3 .bg {
+  left: auto;
+  right: 0;
+}
+
+
+body.rtl .progress_inner > span {
+  text-align: right;
+}
+body.rtl .progress_inner span.number {
+  float: left;
+}
+
