@@ -465,7 +465,8 @@ h6 {
   height: 6px;
   z-index: 10000001;
   background-color: #000;
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 .cursor-inner.cursor-hover {
   margin-left: -40px;
@@ -711,7 +712,7 @@ embed {
   outline: none;
 }
 
-.container h1{
+.container h1 {
   margin-bottom: 60px;
 }
 
@@ -792,7 +793,6 @@ embed {
 .button1 a {
   color: #fff;
   margin: 5px;
-  
 }
 .button2 a {
   color: #fff;
@@ -803,10 +803,48 @@ embed {
   margin: 5px;
 }
 
-.text{line-height: 50px;
-font-size: 20px;}
-
-.text-left{
+.text {
   line-height: 50px;
   font-size: 20px;
 }
+
+.text-left {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+.tit {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.text1 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.text2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.hp {
+  font-size: 16px;
+}
+.mail {
+  font-size: 16px;
+}
+
+.graduate{
+  margin: auto;
+}
+
+.tit h2{text-align: center;}
+
+.graduate{text-align: center;}
+
+.me{
+  text-align: center;
+}
+
+
