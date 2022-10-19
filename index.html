@@ -33,6 +33,9 @@
     >
     <link rel="stylesheet" type="text/css" href="css/rtl.css" >
     <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/init.js"></script>
   </head>
   <body>
     <div class="all_wrap" >
@@ -69,6 +72,12 @@
                     <a href="#other">
                       <span class="first">OTHER</span>
                       <span class="second">OTHER</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#contact">
+                      <span class="first">CONTACT</span>
+                      <span class="second">CONTACT</span>
                     </a>
                   </li>
                 </ul>
@@ -227,7 +236,7 @@
                 <h3>뚜레쥬르</h3>
                 <a href="https://ciomon.github.io/project2/"><img src="./img/tlj.png" alt="충남문화재단" ></a>
               </div>
-              <div class="text-left">
+              <div class="text">
                 두번째 프로젝트로 리디자인 과정을 통해<br > 처음부터 끝까지 레이아웃을 스스로 잡고
                 여러 사이트를 참고하여 제작하였습니다.<br > HTML과 CSS를 기본으로 JS를 사용하였고 <br >많은 수정과 변경을 통해 그리고자 했던 모습으로<br > 점차
                 완성되어가는 모습을 보며<br >
@@ -264,6 +273,30 @@
             </div>
           </div>
         </div>
+        <div class="oth" id="other">
+          <div class="container">
+            <div class="other-inner">
+              <h1>OTHER</h1>
+              <div class="graduate">
+                <h3>GRENN SMOKING BOOTH DESIGN PROJECT</h3>
+                <img src="./img/graduate-project.jpg" alt="">
+                <div class="text-left">
+                  졸업작품이고 주제는 흡연부스 설계이고 규격,모양,랜더링 및 기획 제작까지 모두 도맡아한 작품으로<br> 
+                  어려움이 가장 많았던 작품이었지만 끈기있게 문제를 헤쳐나가고 설계를 하면서 규칙성 및 가독성 전달하고자 하는 목적과 의미를 중점으로 두고 제작하였으며<br>
+                  비흡연자의 직,간접적 피해를 경감하고 흡연자 역시 쾌적한 환경에서 흡연할 수 있는 권리를 보장하고자 설계하게 되었던 작품이고<br>
+                  여러가지 상황이 생기면서 그 상황을 이겨내면서 완성시킨 작품이라 그만큼 만족도와 성취감을 느낄 수 있었고 나아가 만들고자 했던 모습으로 결과물이 도출되어
+                  그만큼 애착이 가는 작품입니다.<br>
+                </div>
+                <div class="button4">
+                  <span class="tag"># 졸업작품</span>
+                  <span class="tag"># 흡연부스</span>
+                  <span class="tag"># 기여도 100%</span>
+                </div>
+              </div>
+
+            </div>
+            </div>
+        </div>
         <div class="mouse-cursor cursor-outer"></div>
         <div class="mouse-cursor cursor-inner"></div>
    
@@ -272,7 +305,7 @@
       <div class="mouse-cursor cursor-inner"></div>
     
 
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="tit">
         <h2>CONTACT</h2>
       </div>
@@ -302,11 +335,62 @@
         </div>
       </div>
     </div>
+    <a href="top" class="top-btn over">TOP</a>
+    <script>
+      $(document).on("change", "select[name=family_site]", function () {
+        url = $(this).val();
+        if (url != "") {
+          window.open(url);
+        }
 
-    <script src="js/jquery.js"></script>
+        $(this).val("");
+      });
 
-    <script src="js/plugins.js"></script>
+      $(function () {
+        $(".top-btn").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            700
+          );
+          return false;
+        });
 
-    <script src="js/init.js"></script>
+        $(window).scroll(function () {
+          //스크롤 내렸을때 탑버튼 나타나도록
+          if ($(this).scrollTop() > $(window).height() * 0.1) {
+            $(".top-btn").addClass("over");
+          } else {
+            $(".top-btn").removeClass("over");
+          }
+        });
+      });
+    </script>
+    <script>
+      /* 
+  1. 스크롤양 감지
+  2.   */
+
+      const btt = document.querySelector(".top-btn");
+      let scrollAmount;
+
+      window.addEventListener("scroll", function () {
+        scrollAmount = this.scrollY;
+        if (scrollAmount > scrollAmount / 4) {
+          btt.classList.add("visible");
+        } else {
+          btt.classList.remove("visible");
+        }
+      });
+      btt.addEventListener("click", function (e) {
+        e.preventDefault();
+        document
+          .querySelector(btt.getAttribute("top"))
+          .scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+
+ 
   </body>
 </html>

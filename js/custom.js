@@ -124,3 +124,4 @@ $(function () {
     $("#wrap").append(counterEl);
   }); //jQuery
   
+  

@@ -922,3 +922,79 @@ embed {
   float: right;
   margin-top: 70px;
 }
+
+.top-btn {
+  position: fixed;
+  box-sizing: border-box;
+  opacity: 0;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 12px;
+  background: #222222;
+  color: rgba(255, 255, 255, 0.5) !important;
+  text-align: center;
+  padding: 0px 5px;
+  font-family: "Exo";
+  z-index: 9999;
+  left: calc(50% + 1320px / 2 + 20px);
+  transition: 0.9s ease;
+}
+
+.top-btn.over {
+  bottom: 60px;
+  opacity: 1;
+}
+
+.other-inner {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+}
+
+.other-inner h1 {
+  text-align: center;
+}
+.graduate {
+  border: 1px solid #fff;
+  padding: 20px;
+  height: 1150px;
+}
+.graduate img {
+  margin: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.graduate h3 {
+  width: 400px;
+  text-align: center;
+}
+
+.button4 {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: absolute;
+  left: 590px;
+  margin-top: 30px;
+}
+.button4 span {
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #eb4a4c;
+  padding: 5px 30px;
+  display: inline-block;
+  border: 2px solid #eb4a4c;
+  transition: all 0.3s ease;
+  margin-right: 20px;
+}
+
+.button4 span:hover {
+  background-color: transparent;
+  color: #fff;
+}
