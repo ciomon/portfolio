@@ -450,7 +450,7 @@ h6 {
   top: 0;
   pointer-events: none;
   border-radius: 50%;
-
+  background-color: #eb4a4c;
   transform: translateZ(0);
   visibility: hidden;
 }
@@ -460,7 +460,7 @@ h6 {
   width: 6px;
   height: 6px;
   z-index: 10000001;
-  background-color: #000;
+  background-color: #eb4a4c;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
@@ -469,7 +469,7 @@ h6 {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #000;
+  background-color: #eb4a4c;
   opacity: 0.3;
 }
 .cursor-outer {
@@ -477,7 +477,7 @@ h6 {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #000;
+  border: 2px solid #eb4a4c;
 
   box-sizing: border-box;
   z-index: 10000000;
