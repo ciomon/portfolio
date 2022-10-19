@@ -267,7 +267,7 @@ body.dark
 }
 
 .all_wrap[data-color="black"] .cursor-inner.cursor-hover {
-  background-color: #000;
+  background-color: #EB4A4C;
 }
 .all_wrap[data-color="black"] .cursor-outer {
   border-color: #EB4A4C;

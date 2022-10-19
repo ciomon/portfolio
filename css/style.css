@@ -257,10 +257,10 @@ h6 {
 }
 
 .bio h1 {
+  font-size: 45px;
   color: #fff;
   text-align: center;
-  /* margin: auto; */
-  /* width: 1095px; */
+  margin-right: 145px;
 }
 
 .bio li {
@@ -290,9 +290,6 @@ h6 {
   margin-right: 120px;
 }
 
-.row .margin {
-  margin-right: 50px;
-}
 
 .bio .title {
   background: #eb4a4c;
@@ -421,6 +418,8 @@ h6 {
 .button[data-position="right"] {
   text-align: right;
 }
+
+
 
 .main_title {
   width: 100%;
@@ -714,6 +713,7 @@ embed {
 
 .container h1 {
   margin-bottom: 60px;
+  font-size: 50px;
 }
 
 .cacf h3 {
@@ -783,24 +783,90 @@ embed {
 }
 
 .button1 {
-  margin-top: 70px;
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: absolute;
+  left: 480px;
+  margin-top: 30px;
+}
+.button1 a {
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #eb4a4c;
+  padding: 5px 30px;
+  display: inline-block;
+  border: 2px solid #eb4a4c;
+  transition: all 0.3s ease;
+  margin-right: 20px;
+}
+
+.button1 a span {
+  font-size: 20px;
+}
+.button1 a:hover {
+  background-color: transparent;
+  color: #fff;
 }
 
 .button2 {
-  margin-top: 70px;
-}
-
-.button1 a {
-  color: #fff;
-  margin: 5px;
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: absolute;
+  left: 480px;
+  margin-top: 30px;
 }
 .button2 a {
+  border-radius: 10px;
+  text-decoration: none;
   color: #fff;
-  margin: 5px;
+  background-color: #eb4a4c;
+  padding: 5px 30px;
+  display: inline-block;
+  border: 2px solid #eb4a4c;
+  transition: all 0.3s ease;
+  margin-right: 20px;
+}
+
+.button2 a span {
+  font-size: 20px;
+}
+.button2 a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.button3 {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: absolute;
+  left: 450px;
+  margin-top: 30px;
 }
 .button3 a {
+  border-radius: 10px;
+  text-decoration: none;
   color: #fff;
-  margin: 5px;
+  background-color: #eb4a4c;
+  padding: 5px 30px;
+  display: inline-block;
+  border: 2px solid #eb4a4c;
+  transition: all 0.3s ease;
+  margin-right: 20px;
+}
+
+.button3 a span {
+  font-size: 20px;
+}
+.button3 a:hover {
+  background-color: transparent;
+  color: #fff;
 }
 
 .text {
@@ -816,6 +882,12 @@ embed {
 .contact {
   text-align: center;
 }
+
+.other{
+  width: 400px;
+  float: right;
+}
+
 .tit {
   font-size: 40px;
   margin-bottom: 30px;
@@ -835,13 +907,12 @@ embed {
   font-size: 16px;
 }
 
-.graduate{
-  margin: auto;
+.graduate img{
+  width: 500px;
+  float: right;
 }
 
 .tit h2{text-align: center;}
-
-.graduate{text-align: center;}
 
 .me{
   text-align: center;
