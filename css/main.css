@@ -841,7 +841,6 @@
 }
 
 
-
 .markup {
   width: 250px;
   float: right;
@@ -888,9 +887,6 @@ li {
   list-style: none;
 }
 
-body {
-  background: rgb(30, 30, 40);
-}
 form {
   max-width: 420px;
   margin: 50px auto;
