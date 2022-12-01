@@ -1,0 +1,35 @@
+* {
+    -webkit-font-smoothing: antialised;
+  } 
+  
+
+  h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -1px;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .top-btn {
+    position: fixed;
+    bottom: 3em;
+    right: 3em;
+    background: rgba(255, 255, 255, 0.9);
+    color: #313943;
+    display: inline-block;
+    padding: 1em; 
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    font-family: "Poppins";
+    font-weight: 600;
+  }
+  .top-btn:hover {
+    background: rgb(255, 255, 255, 0.9);
+    padding: 1em 3em;}
+    
+  .top-btn.visible{opacity: 1;}
