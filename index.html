@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JYC | HOME</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/top-btn.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css"></script>
     <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
@@ -81,14 +82,27 @@
               <img src="./img/photo.png" alt="프로필 사진" >
             </div>
             <div class="contents">
-              <h3 class="text">한계가 없는</h3>
-              <h3>끝없이 변화하는</h3>
-              <h3><span class="job">퍼블리셔</span> 정용철입니다.</h3>
+              <div class="banner table">
+                <div class="info-header table-cell">
+                  <h1>
+                    <span>한계가 없는</span><br>
+                    <span>끝없이 변화하는</span><br>
+                    <span>정용철입니다.</span><br>
+                  </h1>
+                  <ul class="banner-content">
+                    <li>UI/UX DESIGNER</li>
+                    <li>UI/UX PLANNER</li>
+                    <li>WEB PUBLISHER</li>
+                  </ul>
+                </div>
+              </div>
               <div class="button">
                 <a href="./resume/resume.pdf"><span>MY RESUME</span></a>
                 <a href="https://github.com/ciomon"><span>MY GITHUB</span></a>
               </div>
+ 
             </div>
+            
           </div>
         </div>
       </div>
@@ -320,7 +334,7 @@
                           <p class="program"># JS</p>
                           <p class="program"># JQUERY</p>
                         </div>
-                        <div class="button">
+                        <div class="pof-btn">
                           <a class="btn btn-mini" href="https://github.com/ciomon/project01">GITHUB 보기</a>
                           <a class="btn btn-mini" href="./resume/cacf_proposal.pdf">기획서 보기</a>
                         </div>
@@ -345,7 +359,7 @@
                           <p class="program"># JS</p>
                           <p class="program"># JQUERY</p>
                         </div>
-                        <div class="button">
+                        <div class="pof-btn">
                           <a class="btn btn-mini" href="https://github.com/ciomon/project2">GITHUB 보기</a>
                           <a class="btn btn-mini" href="./resume/tlj_proposal.pdf">기획서 보기</a>
                         </div>
@@ -367,7 +381,7 @@
                         <div class="tag">
                           <p class="program"># FIGMA</p>
                         </div>
-                        <div class="button">
+                        <div class="pof-btn">
                           <a class="btn btn-mini" href="https://www.figma.com/proto/GjicfMaptjCz5MR8PCgui4/%EA%BF%80%EC%A3%BC%EC%B0%A8-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85?page-id=0%3A1&node-id=217%3A8807&viewport=-5814%2C-2514%2C0.21&scaling=scale-down&starting-point-node-id=308%3A7544">FIGMA 보기</a>
                           <a class="btn btn-mini" href="./resume/teamproject_proposal.pdf">기획서 보기</a>
                         </div>
@@ -380,25 +394,70 @@
           </div>
         </div>
       </div>
-      <div class="contact" id="contact">
-        <div class="contact-container">
-          <div class="contact-content">
+      <div id="contact" class="contacts">
+        <div class="container">
+          <div class="contact-row">
             <div class="contact-title">
-              <span>CONTACT ME</span>
+              <h3>CONTACT
+                <span>ME</span>
+              </h3>
             </div>
-            <p class="text1">
-              끝이없는 무한한 가능성을 지닌 디자이너가 되도록 노력하는
-              정용철이었습니다.
-            </p>
-            <p class="text2">지금까지 저의 포트폴리오를 봐주셔서 감사합니다.</p>
-            <div class="me">
-              <p class="hp">H.P: 010-9206-3466</p>
-              <p class="mail">E-MAIL: dydcjf1779@naver.com</p>
+          </div>
+          <p class="text1">
+            끝이없는 무한한 가능성을 지닌 디자이너가 되도록 노력하는
+            정용철이었습니다.
+          </p>
+          <p class="text2">지금까지 저의 포트폴리오를 봐주셔서 감사합니다.</p>
+          <div class="offset">
+            <div class="contact-row">
+              <div class="contact-item">
+                <div class="inner-contact">
+                  <span>
+                    <img src="./img/location.png" alt="">
+                  </span>
+                  <h5>ADDRESS</h5>
+                </div>
+                <div class="info-cont">
+                  <p>서울시 동대문구</p>
+                  <p><i class="fa-sharp fa-solid fa-address-card"></i></p>
+                </div>
+                <div class="bg-icon">
+                  
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="inner-contact">
+                  <span>
+                    <img src="./img/message.png" alt="">
+                  </span>
+                  <h5>EMAIL</h5>
+                </div>
+                <div class="info-cont">
+                  <p>dydcjf1779@naver.com</p>
+                  <p></p>
+                </div>
+                <div class="bg-icon">
+                  
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="inner-contact">
+                  <span>
+                    <img src="./img/phone.png" alt="">
+                  </span>
+                  <h5>PHONE</h5>
+                </div>
+                <div class="info-cont">
+                  <p>010.9206.3466</p>
+                  <p></p>
+                </div>
+                <div class="bg-icon"></div>
+              </div>
             </div>
-
           </div>
         </div>
       </div>
+      <a href="#top" class="top-btn over">TOP</a>
       <div class="copyright">
         <div class="container">
           <div class="copyright-inner">
@@ -417,5 +476,7 @@
         </div>
       </div>
     </div>
+    <script src="js/topbtn.js">
+    </script>
   </body>
 </html>
