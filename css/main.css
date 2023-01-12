@@ -15,7 +15,7 @@
   z-index: 10;
   padding: 10px 0;
   transition: all 0.3s ease;
-  background: #ff4654;
+  background: #424CD2;
 }
 
 .container {
@@ -57,7 +57,7 @@
   list-style-type: none;
   position: relative;
   top: 5px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .menu .links ul li {
@@ -82,7 +82,7 @@
 .menu .links ul li a .first {
   position: absolute;
   transform: translateY(100%);
-  color: #ebe781;
+  color: #EFD095;
   transition: all 0.3s ease;
 }
 
@@ -181,7 +181,7 @@
 .info-header h1:before {
   content: " ";
   display: block;
-  background: #ff4654;
+  background: #424CD2;
   width: 50px;
   height: 6px;
   top: 31px;
@@ -211,7 +211,7 @@
   position: relative;
   text-transform: capitalize;
   font-size: 15px;
-  color: #e4d1d1;
+  color: #fff;
   font-weight: 600;
   line-height: 27px;
 }
@@ -221,7 +221,7 @@
   content: "|";
   font-size: 11px;
   position: relative;
-  color: #ff4654;
+  color: #EFD095;
   padding: 0 15px 0 17px;
 }
 
@@ -235,8 +235,8 @@
 }
 .button a {
   cursor: pointer;
-  background: #ff4654;
-  border: 2px solid #ff4654;
+  background: #424CD2;
+  border: 2px solid #424CD2;
   transition: all 0.4s;
   display: inline-block;
   color: #fff;
@@ -276,8 +276,8 @@
 }
 .pof-btn a {
   cursor: pointer;
-  background: #ff4654;
-  border: 2px solid #ff4654;
+  background: #424CD2;
+  border: 2px solid #424CD2;
   transition: all 0.4s;
   display: inline-block;
   color: #fff;
@@ -553,7 +553,7 @@
   width: 60px;
   height: 60px;
   line-height: 55px;
-  background: #ff4654;
+  background: #424CD2;
   transition: all 0.2s ease 0s;
   position: relative;
   border-radius: 30px;
@@ -655,7 +655,7 @@
   left: 0;
   width: 90%;
   height: 8px;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 2px;
   transition: all 0.2s ease 0s;
   font-size: 10px;
@@ -668,7 +668,7 @@
   left: 0;
   width: 60%;
   height: 8px;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 2px;
   transition: all 0.2s ease 0s;
   font-size: 10px;
@@ -681,7 +681,7 @@
   left: 0;
   width: 60%;
   height: 8px;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 2px;
   transition: all 0.2s ease 0s;
   font-size: 10px;
@@ -694,7 +694,7 @@
   left: 0;
   width: 80%;
   height: 8px;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 2px;
   transition: all 0.2s ease 0s;
   font-size: 10px;
@@ -707,7 +707,7 @@
   left: 0;
   width: 90%;
   height: 8px;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 2px;
   transition: all 0.2s ease 0s;
   font-size: 10px;
@@ -720,7 +720,7 @@
   left: 0;
   width: 85%;
   height: 8px;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 2px;
   transition: all 0.2s ease 0s;
   font-size: 10px;
@@ -733,7 +733,7 @@
   left: 0;
   width: 70%;
   height: 8px;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 2px;
   transition: all 0.2s ease 0s;
   font-size: 10px;
@@ -746,7 +746,7 @@
   left: 0;
   width: 90%;
   height: 8px;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 2px;
   transition: all 0.2s ease 0s;
   font-size: 10px;
@@ -761,7 +761,7 @@
   width: 26px;
   line-height: 26px;
   text-align: center;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 26px;
   box-shadow: 0 6px 10px 0 rgb(0 0 0 / 20%);
 }
@@ -998,7 +998,7 @@
   height: auto;
   clear: both;
   float: left;
-  background-color: #ff4654;
+  background-color: #424CD2;
   /* padding: 90px 0 60px; */
 }
 
@@ -1055,7 +1055,7 @@ form {
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border: 2px solid #ff4654;
+  border: 2px solid #424CD2;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -1077,7 +1077,7 @@ textarea {
 [type="submit"] {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   width: 100%;
-  background: #ff4654;
+  background: #424CD2;
   border-radius: 5px;
   border: 0;
   cursor: pointer;
