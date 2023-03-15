@@ -165,7 +165,7 @@
 }
 
 /* section start */
-.section {
+.section1 {
   width: 100%;
   height: 800px;
   float: left;
@@ -173,11 +173,11 @@
   background: #ffffff;
 }
 
-.section .container {
+.section1 .container {
   height: 100%;
 }
 
-.section .section-inner {
+.section1 .section-inner {
   position: absolute;
   top: 50%;
   transform: translateY(-35%);
@@ -340,7 +340,7 @@
 
 /* aboutme */
 
-.about {
+.section2 {
   width: 100%;
   height: 800px;
   float: left;
@@ -361,6 +361,19 @@
   overflow: hidden;
 }
 
+.main-title{
+  font-size: 50px;
+  color: #ff451b;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  max-width: 45%;
+  height: auto;
+  clear: both;
+  float: left;
+  font-family: fantasy;
+}
+
 .my-about {
   width: 100%;
   height: auto;
@@ -371,12 +384,12 @@
 
 .content-text .photo {
   position: relative;
-  left: 30px;
-  bottom: 80px;
+  /* left: 30px; */
+  bottom: 35px;
 }
 
 .content-text .photo img {
-  height: 530px;
+  height: 600px;
 }
 
 .left {
@@ -397,9 +410,9 @@
 .main {
   position: absolute;
   min-width: 47%;
-  top: 17px;
-  bottom: 0px;
-  left: 25px;
+  top: 152px;
+  /* bottom: 0px; */
+  left: 45px;
   right: 0px;
   background-color: #2f32731a;
   padding: 36px 40px 35px 40px;
@@ -412,12 +425,54 @@
   height: 435px;
 }
 
+
+
+.left-title {
+  width: 100%;
+  height: auto;
+  clear: both;
+
+}
+
+.left-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Poppins";
+  line-height: 1.5;
+  letter-spacing: 0px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.left-title .shape {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 7%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border: 3px solid #ff451b;
+}
+
+.left-title .shape:before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #ff451b;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .details {
   position: relative;
   min-width: 47%;
-  /* top: -5px; */
-  left: 0px;
-  margin-top: 55px;
+  left: 45px;
+  margin-top: 56px;
   background-color: #2F3273;
   padding: 36px 40px 35px 5px;
   z-index: 1;
@@ -467,12 +522,35 @@
   float: left;
 }
 
+.my-title .shape {
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+  top: 7%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border: 3px solid #ff451b;
+}
+
+.my-title .shape:before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #ff451b;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .my-title span {
   font-size: 50px;
   color: #ff451b;
   font-weight: 700;
   display: inline-block;
-  margin-top: 30px;
   margin-bottom: 0px;
   font-family: fantasy;
   line-height: 1.5;
@@ -558,7 +636,7 @@
   color: #fff;
 }
 
-.skills {
+.section3 {
   width: 100%;
   height: auto;
   clear: both;
@@ -950,7 +1028,7 @@
   float: left;
 }
 
-.portfolio {
+.section4 {
   position: relative;
   padding: 50px 0 5px 0;
   width: 100%;
@@ -1007,7 +1085,7 @@ button {
 }
 
 
-.btn-12 {
+.btn {
   position: relative;
   right: 20px;
   bottom: 20px;
@@ -1020,7 +1098,7 @@ button {
   perspective: 230px;
 }
 
-.btn-12 span {
+.btn span {
 
   background: #4449A6;
   display: block;
@@ -1037,7 +1115,7 @@ button {
   transition: all .3s;
 }
 
-.btn-12 span:nth-child(1) {
+.btn span:nth-child(1) {
   box-shadow:
     -7px -7px 20px 0px #fff9,
     -4px -4px 5px 0px #fff9,
@@ -1047,19 +1125,19 @@ button {
   transform-origin: 50% 50% -20px;
 }
 
-.btn-12 span:nth-child(2) {
+.btn span:nth-child(2) {
   transform: rotateX(0deg);
   transform-origin: 50% 50% -20px;
 }
 
-.btn-12:hover span:nth-child(1) {
+.btn:hover span:nth-child(1) {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
     7px 7px 20px 0px rgba(0, 0, 0, .1),
     4px 4px 5px 0px rgba(0, 0, 0, .1);
   transform: rotateX(0deg);
 }
 
-.btn-12:hover span:nth-child(2) {
+.btn:hover span:nth-child(2) {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
     7px 7px 20px 0px rgba(0, 0, 0, .1),
     4px 4px 5px 0px rgba(0, 0, 0, .1);
@@ -1188,7 +1266,7 @@ button {
   margin-top: 70px;
 }
 
-.service {
+.section5 {
   width: 100%;
   height: auto;
   clear: both;
@@ -1326,7 +1404,7 @@ button {
   z-index: -11;
 }
 
-.contacts {
+.section6 {
   width: 100%;
   float: left;
   position: relative;
@@ -1340,7 +1418,7 @@ button {
   float: left;
   border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0px 0px 20px #777DF2;
+/*   box-shadow: 0px 0px 20px #777DF2; */
   padding: 70px;
   transition: all 0.3s ease;
 }
