@@ -47,16 +47,14 @@
 }
 
 .logo img {
-  width: 300px;
-  height: 65px;
+  width: 250px;
   padding-top: 35px;
   color: #fff;
   text-align: center;
   font: bold 1.2em arial;
   animation: wobble 1s infinite paused;
-  /* margin: 100px auto; */
   position: relative;
-  bottom: 13px;
+  bottom: 15px;
 }
 
 .logo img:hover {
@@ -93,10 +91,6 @@
   display: block;
 }
 
-.logo a img {
-  width: 100px;
-  height: 100px;
-}
 
 .menu {
   display: flex;
