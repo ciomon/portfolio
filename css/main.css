@@ -1033,8 +1033,9 @@
 
 .thum-col {
   display: flex;
-  margin-right: 0px;
-  width: 1400px;
+  /* margin-right: 0px; */
+  width: 950px;
+  margin: auto;
 }
 
 .thumbnail1 {
@@ -1165,22 +1166,7 @@ button {
   width: 100%;
 }
 
-.thumbnail3 {
-  width: 700px;
-  padding: 4px;
-  line-height: 20px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 1px 3px rgb(0 0 0 / 6%);
-  transition: all 0.2s ease-in-out;
-  margin-right: 50px;
-  margin-bottom: 30px;
-}
 
-.thumbnail3 a img {
-  width: 100%;
-  height: 592px;
-}
 
 .caption .tag {
   display: flex;
